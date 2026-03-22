@@ -3,6 +3,7 @@ import './App.css'
 import HeroSection from './components/HeroSection'
 import ProgressView from './components/ProgressView'
 import VideoPlayer from './components/VideoPlayer'
+import AnimatedBackground from './components/AnimatedPage'
 
 const API_BASE = 'http://localhost:5000'
 
@@ -104,10 +105,10 @@ function App() {
       <nav className="navbar">
         <a href="/" className="navbar-brand" id="navbar-logo">
           <div className="navbar-logo">🎬</div>
-          <span>FrameForge <span className="gradient-text">AI</span></span>
+          <span>Text-to <span className="gradient-text">Motion</span></span>
         </a>
-        <span className="navbar-badge">✨text-2-motion</span>
       </nav>
+      <AnimatedBackground />
 
       {/* Main Content */}
       <main className="app-content">
